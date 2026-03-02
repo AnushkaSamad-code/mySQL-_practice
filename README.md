@@ -13,3 +13,9 @@ I have successfully learned and practice the following MySQL concept:
 - **Advanced Searching**: 
     - `LIKE` Operator (Pattern matching).
     - **Wildcards**: `%` (Zero or more characters) and `_` (Single character).
+  - **Data Modification (DML)**:
+    - `UPDATE`: Learned to modify existing records (e.g., changing a student's age or grade).
+    - `SET`: Used to specify the new values for columns.
+- **System Configuration**:
+    - Disabling **Safe Update Mode**: Learned to bypass the "Error Code: 1175" by modifying `settings.json` in VS Code.
+    - Understanding the importance of the `WHERE` clause in updates to prevent accidental data loss.
