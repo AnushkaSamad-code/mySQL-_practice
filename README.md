@@ -19,3 +19,9 @@ I have successfully learned and practice the following MySQL concept:
 - **System Configuration**:
     - Disabling **Safe Update Mode**: Learned to bypass the "Error Code: 1175" by modifying `settings.json` in VS Code.
     - Understanding the importance of the `WHERE` clause in updates to prevent accidental data loss.
+    - - **Data Deletion (DML)**:
+    - `DELETE FROM`: Learned how to remove specific records from a table.
+    - **Safe Deletion**: Understanding the critical role of the `WHERE` clause to prevent accidental deletion of the entire dataset.
+- **Data Control**:
+    - Practiced resetting tables and re-inserting data to maintain database integrity during testing.
+    - 
