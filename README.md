@@ -24,4 +24,10 @@ I have successfully learned and practice the following MySQL concept:
     - **Safe Deletion**: Understanding the critical role of the `WHERE` clause to prevent accidental deletion of the entire dataset.
 - **Data Control**:
     - Practiced resetting tables and re-inserting data to maintain database integrity during testing.
+ - **Working with Date & Time**:
+    - `LOCALTIME`: Used to retrieve the current system time (HH:MM:SS).
+    - `LOCALTIMESTAMP`: Used to get the full current date and time (YYYY-MM-DD HH:MM:SS).
+    - `NOW()` & `CURRENT_TIMESTAMP`: Explored these functions to automatically track when a record is created or modified.
+- **Temporal Data Awareness**:
+    - Understanding the importance of Time Zones and how databases store event-based data.
     - 
