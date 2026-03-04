@@ -22,18 +22,19 @@ I have successfully learned and practice the following MySQL concept:
     - - **Data Deletion (DML)**:
     - `DELETE FROM`: Learned how to remove specific records from a table.
     - **Safe Deletion**: Understanding the critical role of the `WHERE` clause to prevent accidental deletion of the entire dataset.
-- **Data Control**:
-    - Practiced resetting tables and re-inserting data to maintain database integrity during testing.
  - **Working with Date & Time**:
     - `LOCALTIME`: Used to retrieve the current system time (HH:MM:SS).
     - `LOCALTIMESTAMP`: Used to get the full current date and time (YYYY-MM-DD HH:MM:SS).
     - `NOW()` & `CURRENT_TIMESTAMP`: Explored these functions to automatically track when a record is created or modified.
-- **Temporal Data Awareness**:
-    - Understanding the importance of Time Zones and how databases store event-based data.
  - **Transaction Control (TCL)**:
     - `START TRANSACTION`: Learned how to begin a manual transaction to group multiple SQL operations.
     - `COMMIT`: Used to permanently save changes to the database.
     - `ROLLBACK`: Mastered the "Undo" command to revert changes if an error occurs.
     - `SET autocommit = 0`: Learned how to disable automatic saving to gain full control over data integrity.
-- **Data Integrity**:
-    - Understanding the ACID properties to ensure database reliability and safety during critical updates.
+  - **Data Integrity & Constraints**:
+    - `NOT NULL`: Ensuring mandatory fields are never left empty.
+    - `UNIQUE`: Preventing duplicate entries for specific columns like Email or Phone.
+    - `PRIMARY KEY`: Implementing a unique identifier for every record in a table.
+    - `DEFAULT`: Setting up automatic values when data is not explicitly provided.
+    - `CHECK`: Adding custom validation rules (e.g., `age >= 17`) to ensure data quality.
+
