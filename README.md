@@ -30,4 +30,10 @@ I have successfully learned and practice the following MySQL concept:
     - `NOW()` & `CURRENT_TIMESTAMP`: Explored these functions to automatically track when a record is created or modified.
 - **Temporal Data Awareness**:
     - Understanding the importance of Time Zones and how databases store event-based data.
-    - 
+ - **Transaction Control (TCL)**:
+    - `START TRANSACTION`: Learned how to begin a manual transaction to group multiple SQL operations.
+    - `COMMIT`: Used to permanently save changes to the database.
+    - `ROLLBACK`: Mastered the "Undo" command to revert changes if an error occurs.
+    - `SET autocommit = 0`: Learned how to disable automatic saving to gain full control over data integrity.
+- **Data Integrity**:
+    - Understanding the ACID properties to ensure database reliability and safety during critical updates.
