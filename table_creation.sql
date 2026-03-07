@@ -1,7 +1,4 @@
 -- galat data install na ho isliye use krty 
--- rules of transaction 
--- onstraints in SQL are rules applied to table columns to enforce data integrity, consistency, and validity. They restrict the type of data that can be inserted into a table and help prevent invalid or duplicate entries.
--- use 
 -- Ensure data quality and reliability
 -- Prevent invalid, duplicate, or null data
 -- Maintain business rules directly in the database layer
@@ -51,4 +48,5 @@ CREATE TABLE students (
     age INT CONSTRAINT chk_age CHECK (age >= 5),
     email VARCHAR(100) UNIQUE
 );
+
 
