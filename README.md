@@ -37,4 +37,9 @@ I have successfully learned and practice the following MySQL concept:
     - `PRIMARY KEY`: Implementing a unique identifier for every record in a table.
     - `DEFAULT`: Setting up automatic values when data is not explicitly provided.
     - `CHECK`: Adding custom validation rules (e.g., `age >= 17`) to ensure data quality.
-
+- **SQL Functions (Data Transformation & Analysis)**:
+    - **String Functions**: Mastered `CONCAT`, `REPLACE`, `UPPER/LOWER`, and `TRIM` to manipulate and clean text data.
+    - **Date & Time Functions**: Using `NOW()`, `CURDATE()`, `MONTHNAME()`, and `DATEDIFF()` to extract insights from temporal data.
+    - **Numeric Functions**: Practiced `ROUND`, `FLOOR`, `RAND`, and `ABS` for mathematical calculations.
+    - **Aggregate Functions**: Learned `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX` to summarize large datasets.
+    - **Null Handling**: Using `IFNULL` and `COALESCE` to manage missing values effectively.
